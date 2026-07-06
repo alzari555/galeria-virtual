@@ -1,0 +1,92 @@
+{
+  "artworks": [
+    {
+      "id": "1",
+      "title": "Composición en rojo y azul",
+      "artist": "Piet Mondrian",
+      "image": "/images/demo/obra1.svg",
+      "dimensions": { "width": 60, "height": 60 },
+      "material": "Óleo",
+      "technique": "Sobre lienzo",
+      "year": 1930,
+      "status": "available"
+    },
+    {
+      "id": "2",
+      "title": "Paisaje abstracto",
+      "artist": "Gerhard Richter",
+      "image": "/images/demo/obra2.svg",
+      "dimensions": { "width": 120, "height": 80 },
+      "material": "Óleo",
+      "technique": "Sobre lienzo",
+      "year": 1986,
+      "status": "reserved"
+    },
+    {
+      "id": "3",
+      "title": "Sin título (Vertical)",
+      "artist": "Mark Rothko",
+      "image": "/images/demo/obra3.svg",
+      "dimensions": { "width": 50, "height": 70 },
+      "material": "Acrílico",
+      "technique": "Sobre lienzo",
+      "year": 1958,
+      "status": ""
+    },
+    {
+      "id": "4",
+      "title": "Estudio cromático IV",
+      "artist": "Josef Albers",
+      "image": "/images/demo/obra4.svg",
+      "dimensions": { "width": 80, "height": 80 },
+      "material": "Óleo",
+      "technique": "Sobre masonite",
+      "year": 1963,
+      "status": "sold"
+    },
+    {
+      "id": "5",
+      "title": "Horizonte",
+      "artist": "Agnes Martin",
+      "image": "/images/demo/obra5.svg",
+      "dimensions": { "width": 180, "height": 60 },
+      "material": "Acrílico",
+      "technique": "Sobre lienzo",
+      "year": 1975,
+      "status": "available"
+    },
+    {
+      "id": "6",
+      "title": "Formas flotantes",
+      "artist": "Helen Frankenthaler",
+      "image": "/images/demo/obra6.svg",
+      "dimensions": { "width": 90, "height": 110 },
+      "material": "Acrílico",
+      "technique": "Sobre lienzo crudo",
+      "year": 1969,
+      "status": ""
+    },
+    {
+      "id": "7",
+      "title": "Construcción lineal",
+      "artist": "Sol LeWitt",
+      "image": "/images/demo/obra7.svg",
+      "dimensions": { "width": 70, "height": 50 },
+      "material": "Tinta",
+      "technique": "Sobre papel",
+      "year": 1995,
+      "status": "available"
+    },
+    {
+      "id": "8",
+      "title": "Atardecer urbano",
+      "artist": "Edward Hopper",
+      "image": "/images/demo/obra8.svg",
+      "dimensions": { "width": 100, "height": 70 },
+      "material": "Óleo",
+      "technique": "Sobre lienzo",
+      "year": 1942,
+      "status": "sold"
+    }
+  ]
+}

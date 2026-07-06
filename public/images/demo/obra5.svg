@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 600">
+  <defs>
+    <filter id="hblur"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+  <rect width="1800" height="600" fill="#f0ebe3"/>
+  <rect y="0" width="1800" height="200" fill="#c8d6e5" opacity="0.5" filter="url(#hblur)"/>
+  <rect y="150" width="1800" height="250" fill="#576574" opacity="0.4"/>
+  <rect y="200" width="1800" height="2" fill="#2c3e50" opacity="0.3"/>
+  <rect y="210" width="1800" height="1" fill="#2c3e50" opacity="0.2"/>
+  <rect y="250" width="1800" height="1" fill="#2c3e50" opacity="0.15"/>
+  <rect y="350" width="1800" height="250" fill="#dfe6e9" opacity="0.5"/>
+  <rect x="600" y="0" width="3" height="600" fill="#2c3e50" opacity="0.2"/>
+  <rect x="1200" y="0" width="1" height="600" fill="#2c3e50" opacity="0.15"/>
+  <circle cx="300" cy="200" r="30" fill="#e17055" opacity="0.3" filter="url(#hblur)"/>
+  <circle cx="900" cy="300" r="40" fill="#74b9ff" opacity="0.25" filter="url(#hblur)"/>
+  <circle cx="1500" cy="150" r="25" fill="#fdcb6e" opacity="0.3" filter="url(#hblur)"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+  <defs>
+    <filter id="wash"><feGaussianBlur stdDeviation="35"/></filter>
+    <filter id="drip"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="900" height="1100" fill="#fdf6e3"/>
+  <ellipse cx="300" cy="400" rx="250" ry="300" fill="#6c5ce7" opacity="0.3" filter="url(#wash)"/>
+  <ellipse cx="550" cy="350" rx="200" ry="250" fill="#fd79a8" opacity="0.25" filter="url(#wash)"/>
+  <ellipse cx="450" cy="600" rx="300" ry="200" fill="#fdcb6e" opacity="0.2" filter="url(#wash)"/>
+  <ellipse cx="600" cy="750" rx="180" ry="220" fill="#00b894" opacity="0.25" filter="url(#wash)"/>
+  <path d="M200,200 Q300,180 400,250 Q500,320 600,240 Q700,160 800,280" stroke="#2c3e50" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M250,500 Q380,450 500,550 Q620,650 700,520" stroke="#636e72" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <rect x="300" y="700" width="50" height="150" fill="#d63031" opacity="0.4" filter="url(#drip)" rx="25"/>
+  <rect x="480" y="800" width="30" height="180" fill="#e17055" opacity="0.35" filter="url(#drip)" rx="15"/>
+</svg>
