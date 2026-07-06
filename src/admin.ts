@@ -279,8 +279,8 @@ function updatePreview(artwork: Artwork) {
 
   previewEl.innerHTML = `
     <div style="display:flex;flex-direction:column;align-items:flex-end;padding:28px;">
-      <div style="position:relative;width:${w}px;height:${h}px;">
-        <div style="width:100%;height:100%;background:#f9f5ed;overflow:hidden;">
+      <div style="position:relative;width:${w}px;height:${h}px;border-radius:3px;">
+        <div style="width:100%;height:100%;background:#f9f5ed;overflow:hidden;border-radius:3px;">
           <img src="${artwork.image}" alt="" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'" />
         </div>
         <div style="
@@ -292,14 +292,13 @@ function updatePreview(artwork: Artwork) {
           z-index:-2;
           pointer-events:none;
           filter:blur(4px);
-          clip-path:inset(0px -30px -30px 0px);
         ">
           <div style="
             position:absolute;
             inset:0;
             background:rgba(0, 0, 0, 0.55);
             clip-path:polygon(calc(100% - 10px) 0%, 100% 10px, 100% 100%, 10px 100%, 0% calc(100% - 10px));
-            transform:scale(0.95);
+            transform:scale(0.98);
             transform-origin:center;
           "></div>
         </div>
