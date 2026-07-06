@@ -1,0 +1,49 @@
+backend:
+  name: github
+  repo: alzari555/galeria-virtual
+  branch: main
+
+# Habilita el backend local para desarrollo local con proxy si lo desean
+local_backend: true
+
+# Configuración de medios y carga de imágenes
+media_folder: "public/images"
+public_folder: "/images"
+
+# Colecciones de archivos
+collections:
+  - name: "artworks_data"
+    label: "Datos de Obras"
+    files:
+      - name: "artworks"
+        label: "Lista de Obras"
+        file: "src/data/artworks.json"
+        description: "Lista completa de las obras de arte exhibidas en la galería."
+        fields:
+          - label: "Lista de Obras"
+            name: "artworks"
+            widget: "list"
+            summary: "{{fields.title}} - {{fields.artist}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Artista", name: "artist", widget: "string" }
+              - { label: "Año", name: "year", widget: "number", value_type: "int", required: false }
+              - label: "Estado de venta"
+                name: "status"
+                widget: "select"
+                options:
+                  - { label: "Disponible", value: "available" }
+                  - { label: "Reservado", value: "reserved" }
+                  - { label: "Vendido", value: "sold" }
+                  - { label: "Sin especificar", value: "" }
+                required: false
+              - label: "Dimensiones"
+                name: "dimensions"
+                widget: "object"
+                fields:
+                  - { label: "Ancho (cm)", name: "width", widget: "number", value_type: "float" }
+                  - { label: "Alto (cm)", name: "height", widget: "number", value_type: "float" }
+              - { label: "Material", name: "material", widget: "string", required: false }
+              - { label: "Técnica", name: "technique", widget: "string", required: false }
+              - { label: "Imagen", name: "image", widget: "image", required: false }
