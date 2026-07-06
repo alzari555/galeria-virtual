@@ -18,7 +18,7 @@ function init() {
       wall.innerHTML = `
         <div class="gallery-empty">
           <p>No hay obras en la galería.</p>
-          <a href="/admin.html" class="btn btn-primary">Agregar obras desde el CMS</a>
+          <a href="./admin.html" class="btn btn-primary">Agregar obras desde el CMS</a>
         </div>
       `;
       return;
